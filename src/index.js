@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 
 import "remixicon/fonts/remixicon.css";
-import "aos/dist/aoc.css";
+import "aos/dist/aos.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
