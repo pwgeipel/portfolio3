@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from "react-scroll"
 
 const Header = () => {
     const [nav, setNav] = useState(false)
@@ -11,11 +12,17 @@ const Header = () => {
             <span href="#" className='text-2xl'>Peter Geipel</span>
         </div>
         <ul className='text-base hidden md:flex'>
-                <li href="#" className='cursor-pointer'>Home</li>
-                <li href="#" className='cursor-pointer'>About</li>
-                <li href="#" className='cursor-pointer'>Skills</li>
-                <li href="#" className='cursor-pointer'>Work</li>
-                <li href="#" className='cursor-pointer'>Contact</li>
+                <Link smooth to="home">
+                <li className='cursor-pointer'>Home</li></Link>
+                <Link smooth to="about">
+                <li className='cursor-pointer'>About</li></Link>
+                <Link smooth to="skills">
+                <li href="skills" className='cursor-pointer'>Skills</li>
+                </Link>
+                <Link smooth to="projects">
+                <li className='cursor-pointer'>Work</li></Link>
+                <Link smooth to="contact"></Link>
+                <li className='cursor-pointer'>Contact</li>
         </ul>
         {/* Hamburger */}
         <div onClick={handleClick} className='md:hidden z-10'>

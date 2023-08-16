@@ -7,7 +7,7 @@ const Projects = () => {
     const project = data;
 
   return (
-    <section name="about" className= 'w-full md:h-screen bg-backgroundColor'>
+    <section name="projects" className= 'w-full md:h-screen bg-backgroundColor'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-3xl font-bold inline border-b-4 border-black'>Projects</p>
