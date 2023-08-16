@@ -17,7 +17,14 @@ const Home = () => {
         <p>Hello!  It looks like you found</p>
         <h1 className="text-4xl font-bold mb-4">Peter Geipel</h1>
         <p className="text-lg max-w-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi placeat quaerat vitae cumque. Qui culpa accusantium, tenetur libero expedita consectetur delectus ullam animi velit soluta modi dolorem placeat pariatur sed!</p>
+        <div>
+          <a href="https://docs.google.com/document/d/16qUIiGuB5LYJ0k_D1SliAmIoG_RD9PJJanROTvvj-Hs/edit?usp=share_link">
+        <button
+        className='border-2 border-black px-5 py-3 my-3 flex items-center gap-2 hover:bg-headerColor hover:text-white'>Resume<i class="ri-file-paper-2-line"></i></button>
+        </a>
       </div>
+      </div>
+      
     </div>
 
 
