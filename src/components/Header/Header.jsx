@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-headerColor text-linkColor'>
         <div>
-            <span href="#" className='text-2xl'>Peter Geipel</span>
+            <span className='text-2xl'>Peter Geipel</span>
         </div>
         <ul className='text-base hidden md:flex'>
                 <Link smooth to="home">
