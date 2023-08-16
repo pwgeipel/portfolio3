@@ -3,7 +3,7 @@ import heroImg from "../../../src/assets/selfie.jpg"
 
 const Home = () => {
   return (
-    <div className="max-w-max w-full h-screen flex flex-col md:flex-row pt-20 bg-backgroundColor items-center">
+    <div name="home" className="max-w-max w-full h-screen flex flex-col md:flex-row pt-20 bg-backgroundColor items-center">
       <div className="md:w-2/5 md:order-1 m-10 md:ml-20">
         {/* Image */}
         <img

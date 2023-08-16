@@ -21,8 +21,9 @@ const Header = () => {
                 </Link>
                 <Link smooth to="projects">
                 <li className='cursor-pointer'>Work</li></Link>
-                <Link smooth to="contact"></Link>
+                <Link smooth to="contact">
                 <li className='cursor-pointer'>Contact</li>
+                </Link>
         </ul>
         {/* Hamburger */}
         <div onClick={handleClick} className='md:hidden z-10'>
@@ -31,15 +32,16 @@ const Header = () => {
         {/* Mobile Menu */}
         
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-headerColor flex flex-col justify-center items-center'}>
-                <Link to="home">
+                <Link onClick={handleClick} to="home">
                 <li className='py-5 text-3xl cursor-pointer'>Home</li></Link>
-                <Link to="about">
+                <Link onClick={handleClick} to="about">
                 <li className='py-5 text-3xl cursor-pointer'>About</li></Link>
-                <Link to="skills">
+                <Link onClick={handleClick} to="skills">
                 <li className='py-5 text-3xl cursor-pointer'>Skills</li></Link>
-                <Link to="projects">
-                <li className='py-5 text-3xl cursor-pointer'>Work</li></Link>
-                <li href="#" className='py-5 text-3xl cursor-pointer'>Contact</li>
+                <Link onClick={handleClick} to="projects">
+                <li onClick={handleClick} className='py-5 text-3xl cursor-pointer'>Work</li></Link>
+                <Link onClick={handleClick} to="contact">
+                <li className='py-5 text-3xl cursor-pointer'>Contact</li></Link>
             </ul>
         
     </div>
