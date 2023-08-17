@@ -13,7 +13,7 @@ const Skills = () => {
     <section name="skills" className='w-full h-screen bg-backgroundColor'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-3xl font-bold inline border-b-4 border-black'>Skills</p>
+                <p className='text-3xl font-bold inline border-b-4 border-linkColor text-eggplant'>Skills</p>
                 <p className='py-3'>Here are some of the skills I am prepared to bring to your team.</p>
             </div>
               <div className='w-full grid sm:grid-cols-4 grid-cols-2 text-center py-10'>

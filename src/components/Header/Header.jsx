@@ -13,16 +13,16 @@ const Header = () => {
         </div>
         <ul className='text-base hidden md:flex'>
                 <Link smooth to="home">
-                <li className='cursor-pointer'>Home</li></Link>
+                <li className='cursor-pointer text-linkColor'>Home</li></Link>
                 <Link smooth to="about">
-                <li className='cursor-pointer'>About</li></Link>
+                <li className='cursor-pointer text-linkColor'>About</li></Link>
                 <Link smooth to="skills">
-                <li href="skills" className='cursor-pointer'>Skills</li>
+                <li href="skills" className='cursor-pointer text-linkColor'>Skills</li>
                 </Link>
                 <Link smooth to="projects">
-                <li className='cursor-pointer'>Work</li></Link>
+                <li className='cursor-pointer text-linkColor'>Work</li></Link>
                 <Link smooth to="contact">
-                <li className='cursor-pointer'>Contact</li>
+                <li className='cursor-pointer text-linkColor'>Contact</li>
                 </Link>
         </ul>
         {/* Hamburger */}

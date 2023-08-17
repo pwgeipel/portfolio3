@@ -4,9 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        headerColor: "#66694d",
-        backgroundColor: "#d5d7c4",
-        linkColor: "#bac895"
+        headerColor: "#535636",
+        backgroundColor: "#c2a878",
+        linkColor: "#f1f5f2",
+        coral: "#ff8552",
+        auburn: "#9e2a2b",
+        chocolate: "#540b0e",
+        eggplant: "#734b5e",
+        oxford: "#001427"
+
       }
     },
   },
