@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio3/static/css/main.557d0c18.css",
+    "main.js": "/portfolio3/static/js/main.ed7666f5.js",
+    "static/media/Shroomies.png": "/portfolio3/static/media/Shroomies.649b8863a49cb572dd21.png",
+    "static/media/remixicon.svg?t=1690730386070": "/portfolio3/static/media/remixicon.db77551b8efc76571c4f.svg",
+    "static/media/selfie.jpg": "/portfolio3/static/media/selfie.1f9d088add3986b6447b.jpg",
+    "static/media/remixicon.eot?t=1690730386070": "/portfolio3/static/media/remixicon.53ec05edb4b6864b45b1.eot",
+    "static/media/remixicon.ttf?t=1690730386070": "/portfolio3/static/media/remixicon.4aa0fd158658e2a40e79.ttf",
+    "static/media/remixicon.woff?t=1690730386070": "/portfolio3/static/media/remixicon.affd60ca37df38cfee4f.woff",
+    "static/media/remixicon.woff2?t=1690730386070": "/portfolio3/static/media/remixicon.821a773710130bcf4674.woff2",
+    "static/media/react.png": "/portfolio3/static/media/react.6ff2d0e0c3b290ef0fa2.png",
+    "static/media/jquery.png": "/portfolio3/static/media/jquery.cb02ba3e466d359cbe2b.png",
+    "static/media/mongodb.png": "/portfolio3/static/media/mongodb.f7af55ca74f5f0f32640.png",
+    "index.html": "/portfolio3/index.html",
+    "main.557d0c18.css.map": "/portfolio3/static/css/main.557d0c18.css.map",
+    "main.ed7666f5.js.map": "/portfolio3/static/js/main.ed7666f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.557d0c18.css",
+    "static/js/main.ed7666f5.js"
+  ]
+}
