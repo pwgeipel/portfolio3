@@ -23,6 +23,18 @@ const Home = () => {
               className='border-2 border-black rounded-full px-5 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500'>Resume<i className="ri-file-paper-2-line"></i></button>
           </a>
       </div>
+      <div className='flex justify-end'>
+          <a href="https://github.com/pwgeipel">
+            <button
+              className='border-2 border-black rounded-full px-4 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500'><i className="ri-github-line size={30}"></i></button>
+          </a>
+      </div>
+      {/* <div className='group flex justify-end'>
+          <a href="https://docs.google.com/document/d/16qUIiGuB5LYJ0k_D1SliAmIoG_RD9PJJanROTvvj-Hs/edit?usp=share_link">
+            <button
+              className='border-2 border-black rounded-full px-5 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500'><span className='transition duration-300 hidden group-hover:contents text-eggplant'>Resume</span><i className="ri-file-paper-2-line"></i></button>
+          </a>
+      </div> */}
       </div>
       
     </div>
