@@ -23,10 +23,18 @@ const Home = () => {
               className='border-2 border-black rounded-full px-5 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500'>Resume<i className="ri-file-paper-2-line"></i></button>
           </a>
       </div>
-      <div className='flex justify-end'>
+      <div className='flex justify-end gap-2'>
           <a href="https://github.com/pwgeipel">
             <button
-              className='border-2 border-black rounded-full px-4 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500'><i className="ri-github-line size={30}"></i></button>
+              className='border-2 border-black rounded-full px-4 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500'><i className="ri-github-line  text-xl"></i></button>
+          </a>
+          <a href="https://www.linkedin.com/in/peter-geipel/">
+            <button
+              className='border-2 border-black rounded-full px-4 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500'><i class="ri-linkedin-fill text-xl"></i></button>
+          </a>
+          <a href="mailto:pwgeipel@gmail.com">
+            <button
+              className='border-2 border-black rounded-full px-4 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500'><i class="ri-mail-line text-xl"></i></button>
           </a>
       </div>
       {/* <div className='group flex justify-end'>
