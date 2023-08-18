@@ -6,7 +6,7 @@ import ReactIcon from '../../../src/assets/react.png'
 import JQuery from '../../../src/assets/jquery.png'
 import Express from '../../../src/assets/express.png'
 import Mongo from '../../../src/assets/mongodb.png'
-import Node from '../../../src/assets/node-js.png'
+import Node from '../../../src/assets/node-js copy.png'
 
 const Skills = () => {
   return (
