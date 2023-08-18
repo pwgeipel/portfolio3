@@ -1,6 +1,6 @@
 import React from 'react'
-import HTML from '../../../src/assets/html-2.png'
-import CSS from '../../../src/assets/css3.png'
+import HTML from '../../../src/assets/html5.png'
+import CSS from '../../../src/assets/css.png'
 import JS from '../../../src/assets/javascript.png'
 import ReactIcon from '../../../src/assets/react.png'
 import JQuery from '../../../src/assets/jquery.png'
@@ -13,40 +13,42 @@ const Skills = () => {
     <section name="skills" className='w-full h-screen bg-backgroundColor'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-3xl font-bold inline border-b-4 border-linkColor text-eggplant'>Skills</p>
-                <p className='py-3'>Here are some of the skills I am prepared to bring to your team.</p>
+                <p className='text-3xl font-bold inline border-b-4 border-linkColor text-eggplant' data-aos="fade-right" data-aos-duration="750"
+                    >Skills</p>
+                <p className='py-3'data-aos="fade-right" 
+                    data-aos-delay="1000" data-aos-duration="750">Here are some of the skills I am prepared to bring to your team.</p>
             </div>
               <div className='w-full grid sm:grid-cols-4 grid-cols-2 text-center py-10'>
-                <div>
-                  <img className='w-40 mx-auto mt-3' src={HTML} alt="HTML icon" />
+                <div data-aos="fade-up" data-aos-delay="750" data-aos-duration="750" >
+                  <img className='w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110' src={HTML} alt="HTML icon" />
                   <p className='my-4'>HTML</p>
                 </div>
-              <div>
-                  <img className='w-40 mx-auto mt-3' src={CSS} alt="CSS icon" />
+              <div  data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+                  <img className='w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110' src={CSS} alt="CSS icon" />
                   <p className='my-4'>CSS</p>
               </div>
-              <div>
-                  <img className='w-40 mx-auto mt-3' src={JS} alt="Javascript icon" />
+              <div  data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+                  <img className='w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110' src={JS} alt="Javascript icon" />
                   <p className='my-4'>Javascript</p>
               </div>
-              <div>
-                  <img className='w-40 mx-auto mt-3' src={ReactIcon} alt="React icon" />
+              <div  data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+                  <img className='w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110' src={ReactIcon} alt="React icon" />
                   <p className='my-4'>React</p>
               </div>
-              <div>
-                  <img className='w-40 mx-auto mt-3' src={JQuery} alt="JQuery icon" />
+              <div  data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+                  <img className='w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110' src={JQuery} alt="JQuery icon" />
                   <p className='my-4'>JQuery</p>
               </div>
-              <div>
-                <img className='w-40 mx-auto mt-3' src={Express} alt="Express icon" />
+              <div  data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+                <img className='w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110' src={Express} alt="Express icon" />
                 <p className='my-4'>Express</p>
               </div>
-              <div>
-                <img className='w-40 mx-auto mt-3' src={Mongo} alt="MongoDB icon" />
+              <div  data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+                <img className='w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110' src={Mongo} alt="MongoDB icon" />
                 <p className='my-4'>MongoDB</p>
               </div>
-              <div>
-                <img className='w-40 mx-auto mt-3' src={Node} alt="NodeJS icon" />
+              <div  data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+                <img className='w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110' src={Node} alt="NodeJS icon" />
                 <p className='my-4'>NodeJS</p>
               </div>
           </div>

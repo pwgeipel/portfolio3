@@ -4,7 +4,7 @@ import heroImg from "../../../src/assets/selfie.jpg"
 const Home = () => {
   return (
     <div name="home" className="max-w-max w-full h-screen flex flex-col md:flex-row pt-20 bg-backgroundColor items-center">
-      <div className="md:w-2/5 md:order-1 m-10 md:ml-20" data-aos="fade-right" data-aos-duration="750">
+      <div className="md:w-2/5 md:order-1 m-10 md:ml-20" data-aos="zoom-in" data-aos-duration="750">
         {/* Image */}
         <img
           src={heroImg}
@@ -26,15 +26,15 @@ const Home = () => {
       <div className='flex justify-end gap-2'>
           <a href="https://github.com/pwgeipel">
             <button
-              className='border-2 border-black rounded-full px-4 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500'data-aos="fade-left" data-aos-delay="3000" data-aos-duration="750"><i className="ri-github-line  text-xl"></i></button>
+              className='border-2 border-black rounded-full px-4 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500' data-aos="fade-left" data-aos-delay="3000" data-aos-duration="750"><i className="ri-github-line  text-xl"></i></button>
           </a>
           <a href="https://www.linkedin.com/in/peter-geipel/">
             <button
-              className='border-2 border-black rounded-full px-4 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500'data-aos="fade-left" data-aos-delay="2250" data-aos-duration="750"><i className="ri-linkedin-fill text-xl"></i></button>
+              className='border-2 border-black rounded-full px-4 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500' data-aos="fade-left" data-aos-delay="2250" data-aos-duration="750"><i className="ri-linkedin-fill text-xl"></i></button>
           </a>
           <a href="mailto:pwgeipel@gmail.com">
             <button
-              className='border-2 border-black rounded-full px-4 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500'data-aos="fade-left" data-aos-delay="1500" data-aos-duration="750"><i className="ri-mail-line text-xl"></i></button>
+              className='border-2 border-black rounded-full px-4 py-3 my-3 flex items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500' data-aos="fade-left" data-aos-delay="1500" data-aos-duration="750"><i className="ri-mail-line text-xl"></i></button>
           </a>
       </div>
       {/* <div className='group flex justify-end'>

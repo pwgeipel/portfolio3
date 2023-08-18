@@ -7,22 +7,22 @@ const Header = () => {
 
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-headerColor text-linkColor'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-headerColor text-linkColor z-10'>
         <div>
             <span className='text-2xl'>Peter Geipel</span>
         </div>
         <ul className='text-base hidden md:flex'>
                 <Link smooth to="home">
-                <li className='cursor-pointer text-linkColor'>Home</li></Link>
+                <li className='cursor-pointer text-linkColor transition duration-300 ease-in-out hover:scale-110'>Home</li></Link>
                 <Link smooth to="about">
-                <li className='cursor-pointer text-linkColor'>About</li></Link>
+                <li className='cursor-pointer text-linkColor transition duration-300 ease-in-out hover:scale-110'>About</li></Link>
                 <Link smooth to="skills">
-                <li href="skills" className='cursor-pointer text-linkColor'>Skills</li>
+                <li href="skills" className='cursor-pointer text-linkColor transition duration-300 ease-in-out hover:scale-110'>Skills</li>
                 </Link>
                 <Link smooth to="projects">
-                <li className='cursor-pointer text-linkColor'>Work</li></Link>
+                <li className='cursor-pointer text-linkColor transition duration-300 ease-in-out hover:scale-110'>Work</li></Link>
                 <Link smooth to="contact">
-                <li className='cursor-pointer text-linkColor'>Contact</li>
+                <li className='cursor-pointer text-linkColor transition duration-300 ease-in-out hover:scale-110'>Contact</li>
                 </Link>
         </ul>
         {/* Hamburger */}
