@@ -7,3 +7,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/* .expandable-button {
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+    max-height: 2.5rem;
+  }
+
+  .expandable-button:hover {
+    max-height: 6rem;
+  }
+
+  .expandable-content {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+  }
+
+  .expandable-button:hover .expandable-content {
+    opacity: 1;} */
