@@ -15,7 +15,7 @@ const Projects = () => {
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-3'>
-
+            {/* <div className="flex flex-wrap -m-4"> */}
                 {/* {project.map((item, index) => (
                  
                 <div
@@ -25,11 +25,11 @@ const Projects = () => {
 
                     </div> */}
                 {projects.map((project) => (
-                    <a href={project.link}
+                    <a href={project.github}
                     key={project.image}
                     className="sm:1/2 w-100 p-4">
                         <div className='flex relative'>
-                            <img src="{project.image}" alt="gallery"
+                            <img src={project.image} alt="gallery"
                             className='absolute inset-0 w-full h-full object-cover object-center' />
                             <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
