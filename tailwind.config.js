@@ -11,11 +11,9 @@ module.exports = {
         auburn: "#9e2a2b",
         chocolate: "#540b0e",
         eggplant: "#734b5e",
-        oxford: "#001427"
-
-      }
+        oxford: "#001427",
+      },
     },
   },
   plugins: [],
-}
-
+};

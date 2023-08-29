@@ -1,11 +1,18 @@
 @tailwind base;
 @layer base {
-    li {
-        @apply px-4;
-    }
+  li {
+    @apply px-4;
+  }
 }
 @tailwind components;
 @tailwind utilities;
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
 
 /* .expandable-button {
     overflow: hidden;
