@@ -16,6 +16,7 @@ const el = React.useRef(null);
       backSpeed: 50,
       // shuffle: true,
       loop: true,
+      cursorChar: '_'
     });
 
     return () => {
@@ -48,10 +49,10 @@ const el = React.useRef(null);
       >
         {/* Text */}
         <p>Hello! It looks like you found</p>
-        <h1 className="text-5xl font-bold mb-4 text-eggplant">Peter Geipel</h1>
-        <h2>
-          <span ref={el} />
-        </h2>
+        <h1 className="text-6xl font-bold mb-4 text-eggplant">Peter Geipel</h1>
+        <div>
+          <span className="text-3xl" ref={el} />
+        </div>
 
 
 

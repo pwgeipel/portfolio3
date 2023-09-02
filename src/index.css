@@ -1,11 +1,27 @@
 @tailwind base;
+
+
+@tailwind components;
+@tailwind utilities;
+
+
 @layer base {
+  @font-face {
+    font-family: "BagnardSans";
+    src: url("../src/assets/BagnardSans.otf");
+  }
+  /* html {
+    @apply font-bagnard;
+  } */
   li {
     @apply px-4;
   }
 }
-@tailwind components;
-@tailwind utilities;
+
+
+p, li, button, form, span, h1 {
+  font-family: "BagnardSans";
+}
 
 .content-div {
   background-repeat: no-repeat;

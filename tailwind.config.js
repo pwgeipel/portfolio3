@@ -13,6 +13,9 @@ module.exports = {
         eggplant: "#734b5e",
         oxford: "#001427",
       },
+      fontFamily: {
+        bagnard: ['BagnardSans', 'sans-serif'],
+      }
     },
   },
   plugins: [],

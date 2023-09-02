@@ -11,7 +11,7 @@ const Projects = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-3xl font-bold inline border-b-4 border-linkColor text-eggplant'>Projects</p>
-                <p>Some examples of my work</p>
+                <p className="pt-4">Some examples of my work</p>
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
