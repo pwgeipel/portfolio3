@@ -1,7 +1,29 @@
 import React from "react";
 import heroImg from "../../../src/assets/selfie.jpg";
+import Typed from 'typed.js';
+
+
 
 const Home = () => {
+
+
+const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['Developer', 'Coffee Enthusiast', 'Amateur Chef', 'Corporate Trainer'],
+      typeSpeed: 50,
+      backSpeed: 50,
+      // shuffle: true,
+      loop: true,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <div
       name="home"
@@ -15,7 +37,7 @@ const Home = () => {
         {/* Image */}
         <img
           src={heroImg}
-          alt="Hero Image"
+          alt="Hero"
           className="h-auto object-contain rounded-full"
         />
       </div>
@@ -27,12 +49,18 @@ const Home = () => {
         {/* Text */}
         <p>Hello! It looks like you found</p>
         <h1 className="text-5xl font-bold mb-4 text-eggplant">Peter Geipel</h1>
-        <p className="text-lg max-w-700">
+        <h2>
+          <span ref={el} />
+        </h2>
+
+
+
+        {/* <p className="text-lg max-w-700">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
           placeat quaerat vitae cumque. Qui culpa accusantium, tenetur libero
           expedita consectetur delectus ullam animi velit soluta modi dolorem
           placeat pariatur sed!
-        </p>
+        </p> */}
         <div className="flex justify-end">
           <a href="https://docs.google.com/document/d/16qUIiGuB5LYJ0k_D1SliAmIoG_RD9PJJanROTvvj-Hs/edit?usp=share_link">
             <button
@@ -84,6 +112,7 @@ const Home = () => {
       </div>
     </div>
   );
+  
 };
 
 export default Home;

@@ -6,7 +6,8 @@ const Header = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-headerColor text-linkColor z-10">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4  bg-headerColor text-linkColor z-10">
+        {/* bg-gradient-to-b from-headerColor to-backgroundColor  */}
       <div>
         <span className="text-2xl">Peter Geipel</span>
       </div>
