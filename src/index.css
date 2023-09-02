@@ -1,9 +1,7 @@
 @tailwind base;
 
-
 @tailwind components;
 @tailwind utilities;
-
 
 @layer base {
   @font-face {
@@ -18,8 +16,12 @@
   }
 }
 
-
-p, li, button, form, span, h1 {
+p,
+li,
+button,
+form,
+span,
+h1 {
   font-family: "BagnardSans";
 }
 
@@ -29,4 +31,3 @@ p, li, button, form, span, h1 {
   background-position: center;
   height: 250px;
 }
-

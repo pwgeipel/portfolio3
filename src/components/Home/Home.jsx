@@ -14,9 +14,9 @@ const el = React.useRef(null);
       strings: ['Developer', 'Coffee Enthusiast', 'Amateur Chef', 'Corporate Trainer'],
       typeSpeed: 50,
       backSpeed: 50,
-      // shuffle: true,
+      backDelay: 1000,
       loop: true,
-      cursorChar: '_'
+      cursorChar: '__'
     });
 
     return () => {

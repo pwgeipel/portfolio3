@@ -14,8 +14,8 @@ module.exports = {
         oxford: "#001427",
       },
       fontFamily: {
-        bagnard: ['BagnardSans', 'sans-serif'],
-      }
+        bagnard: ["BagnardSans", "sans-serif"],
+      },
     },
   },
   plugins: [],

@@ -32,10 +32,7 @@ const About = () => {
             data-aos-duration="1500"
           >
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
-              nemo, esse, dolores omnis facilis harum quas officiis quisquam
-              iure eligendi fuga, vitae veniam quaerat fugit ad consequatur at
-              quo ducimus.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, culpa amet. Corporis, dolorum mollitia quisquam tempore, obcaecati velit voluptates blanditiis impedit necessitatibus vero illum ipsam quidem. Cumque accusantium cupiditate laborum.
             </p>
           </div>
         </div>
