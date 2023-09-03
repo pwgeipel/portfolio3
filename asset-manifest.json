@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio3/static/css/main.88f279cc.css",
-    "main.js": "/portfolio3/static/js/main.f6b01a95.js",
+    "main.js": "/portfolio3/static/js/main.fc3b75a7.js",
     "static/media/Shroomies.png": "/portfolio3/static/media/Shroomies.649b8863a49cb572dd21.png",
     "static/media/mood-for-food.png": "/portfolio3/static/media/mood-for-food.2275df7d9f71a4639920.png",
     "static/media/remixicon.svg?t=1690730386070": "/portfolio3/static/media/remixicon.db77551b8efc76571c4f.svg",
@@ -17,10 +17,10 @@
     "static/media/jquery.png": "/portfolio3/static/media/jquery.c98e4a10b90934c475b4.png",
     "index.html": "/portfolio3/index.html",
     "main.88f279cc.css.map": "/portfolio3/static/css/main.88f279cc.css.map",
-    "main.f6b01a95.js.map": "/portfolio3/static/js/main.f6b01a95.js.map"
+    "main.fc3b75a7.js.map": "/portfolio3/static/js/main.fc3b75a7.js.map"
   },
   "entrypoints": [
     "static/css/main.88f279cc.css",
-    "static/js/main.f6b01a95.js"
+    "static/js/main.fc3b75a7.js"
   ]
 }
