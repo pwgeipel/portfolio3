@@ -7,9 +7,13 @@ const Header = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4  bg-headerColor text-linkColor z-10">
-        {/* bg-gradient-to-b from-headerColor to-backgroundColor  */}
+      {/* bg-gradient-to-b from-headerColor to-backgroundColor  */}
       <div>
-        <span className="text-2xl">Peter Geipel</span>
+        <Link smooth to="home">
+          <span className="text-2xl cursor-pointer text-linkColor">
+            Peter Geipel
+          </span>
+        </Link>
       </div>
       <ul className="text-base hidden md:flex">
         <Link smooth to="home">
