@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio3/static/css/main.598537f1.css",
-    "main.js": "/portfolio3/static/js/main.456ea608.js",
+    "main.css": "/portfolio3/static/css/main.88f279cc.css",
+    "main.js": "/portfolio3/static/js/main.f6b01a95.js",
     "static/media/Shroomies.png": "/portfolio3/static/media/Shroomies.649b8863a49cb572dd21.png",
+    "static/media/mood-for-food.png": "/portfolio3/static/media/mood-for-food.2275df7d9f71a4639920.png",
     "static/media/remixicon.svg?t=1690730386070": "/portfolio3/static/media/remixicon.db77551b8efc76571c4f.svg",
     "static/media/selfie.jpg": "/portfolio3/static/media/selfie.1f9d088add3986b6447b.jpg",
     "static/media/remixicon.eot?t=1690730386070": "/portfolio3/static/media/remixicon.53ec05edb4b6864b45b1.eot",
     "static/media/remixicon.ttf?t=1690730386070": "/portfolio3/static/media/remixicon.4aa0fd158658e2a40e79.ttf",
+    "static/media/shoe-in-screenshot.jpg": "/portfolio3/static/media/shoe-in-screenshot.c8397438121c1bf4edec.jpg",
     "static/media/remixicon.woff?t=1690730386070": "/portfolio3/static/media/remixicon.affd60ca37df38cfee4f.woff",
     "static/media/remixicon.woff2?t=1690730386070": "/portfolio3/static/media/remixicon.821a773710130bcf4674.woff2",
     "static/media/react.png": "/portfolio3/static/media/react.b9eb8ec549dd9a9ddfd6.png",
+    "static/media/BagnardSans.otf": "/portfolio3/static/media/BagnardSans.c99afa257c8cfc4569b3.otf",
     "static/media/mongodb.png": "/portfolio3/static/media/mongodb.8b72a2b2bbbb5ba21bd7.png",
     "static/media/jquery.png": "/portfolio3/static/media/jquery.c98e4a10b90934c475b4.png",
     "index.html": "/portfolio3/index.html",
-    "main.598537f1.css.map": "/portfolio3/static/css/main.598537f1.css.map",
-    "main.456ea608.js.map": "/portfolio3/static/js/main.456ea608.js.map"
+    "main.88f279cc.css.map": "/portfolio3/static/css/main.88f279cc.css.map",
+    "main.f6b01a95.js.map": "/portfolio3/static/js/main.f6b01a95.js.map"
   },
   "entrypoints": [
-    "static/css/main.598537f1.css",
-    "static/js/main.456ea608.js"
+    "static/css/main.88f279cc.css",
+    "static/js/main.f6b01a95.js"
   ]
 }
