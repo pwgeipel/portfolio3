@@ -28,7 +28,7 @@ const el = React.useRef(null);
   return (
     <div
       name="home"
-      className="max-w-max w-full h-screen flex flex-col md:flex-row pt-20 bg-backgroundColor items-center"
+      className="max-w-max w-full h-auto md:h-screen flex flex-col md:flex-row pt-40 bg-backgroundColor items-center"
     >
       <div
         className="md:w-2/5 md:order-1 m-10 md:ml-20"

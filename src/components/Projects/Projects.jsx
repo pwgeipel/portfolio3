@@ -8,28 +8,18 @@ const Projects = () => {
     <section name="projects" className="w-full md:h-screen bg-backgroundColor">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-3xl font-bold inline border-b-4 border-linkColor text-eggplant">
+          <p
+            className="text-3xl font-bold inline border-b-4 border-linkColor text-eggplant"
+            data-aos="fade-right"
+            data-aos-duration="750"
+          >
             Projects
           </p>
           <p className="pt-4">Some examples of my work</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 pt-5 gap-10">
-          {/* <div className="flex flex-wrap -m-4"> */}
-          {/* {project.map((item, index) => (
-                 
-                <div
-                    key={index}
-                    style={{backgroundImage: `url(${item.image})`}}
-                    className='container flex justify-center text-center items-center mx-auto content-div'>
-
-                    </div> */}
           {projects.map((project) => (
-            // <a
-            //   href={project.github}
-            //   key={project.image}
-            //   className="group container flex justify-center text-center items-center mx-auto content-div"
-            // >
             <div className="flex relative">
               <img
                 src={project.image}
@@ -50,23 +40,14 @@ const Projects = () => {
                   </button>
                 </a>
                 <a href={project.demo}>
-                <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md  hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500">
+                  <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md  hover:bg-eggplant hover:text-linkColor hover:border-eggplant duration-500">
                     Demo
                   </button>
                 </a>
               </div>
             </div>
-            // </a>
           ))}
-
-          {/* ))} */}
         </div>
-
-        {/* <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-3'>
-                <div style={{backgroundImage: 'url(${Shroomies})'}} className='group shadow-lg shadow-black container flex justify-center items-center mx-auto'>
-
-                </div>
-            </div> */}
       </div>
     </section>
   );

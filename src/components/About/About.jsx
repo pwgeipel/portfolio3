@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <section name="about" className="w-full h-screen bg-backgroundColor">
-      <div className="flex flex-col justify-center items-center w-full h-full">
+    <section name="about" className="w-full md:h-screen bg-backgroundColor">
+      <div className="flex flex-col justify-center items-center w-full h-auto">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
           <div classname="sm:text-right">
             <p

@@ -6,8 +6,7 @@ const Header = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4  bg-headerColor text-linkColor z-10">
-      {/* bg-gradient-to-b from-headerColor to-backgroundColor  */}
+    <div className="fixed w-full h-[100px] flex justify-between items-center px-4   bg-gradient-to-t from-backgroundColor from-0% to-headerColor to-35% text-linkColor z-10">
       <div>
         <Link smooth to="home">
           <span className="text-2xl cursor-pointer text-linkColor">
