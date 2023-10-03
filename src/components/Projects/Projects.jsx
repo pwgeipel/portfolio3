@@ -11,7 +11,7 @@ const Projects = () => {
           <p
             className="text-3xl font-bold inline border-b-4 border-linkColor text-eggplant"
             data-aos="fade-right"
-            data-aos-duration="750"
+            data-aos-duration="500"
           >
             Projects
           </p>
@@ -20,7 +20,7 @@ const Projects = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 pt-5 gap-10">
           {projects.map((project) => (
-            <div className="flex relative">
+            <div className="flex relative" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
               <img
                 src={project.image}
                 alt="gallery"

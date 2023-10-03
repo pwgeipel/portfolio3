@@ -16,21 +16,21 @@ const Skills = () => {
           <p
             className="text-3xl font-bold inline border-b-4 border-linkColor text-eggplant"
             data-aos="fade-right"
-            data-aos-duration="750"
+            data-aos-duration="500"
           >
             Skills
           </p>
           <p
             className="py-3"
             data-aos="fade-right"
-            data-aos-delay="1000"
-            data-aos-duration="750"
+            data-aos-delay="500"
+            data-aos-duration="500"
           >
             Here are some of the skills I am prepared to bring to your team.
           </p>
         </div>
         <div className="w-full grid sm:grid-cols-4 grid-cols-2 text-center py-10">
-          <div data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+          <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
             <img
               className="w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110"
               src={HTML}
@@ -38,7 +38,7 @@ const Skills = () => {
             />
             <p className="my-4">HTML</p>
           </div>
-          <div data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+          <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
             <img
               className="w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110"
               src={CSS}
@@ -46,7 +46,7 @@ const Skills = () => {
             />
             <p className="my-4">CSS</p>
           </div>
-          <div data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+          <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
             <img
               className="w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110"
               src={JS}
@@ -54,7 +54,7 @@ const Skills = () => {
             />
             <p className="my-4">Javascript</p>
           </div>
-          <div data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+          <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
             <img
               className="w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110"
               src={ReactIcon}
@@ -62,7 +62,7 @@ const Skills = () => {
             />
             <p className="my-4">React</p>
           </div>
-          <div data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+          <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
             <img
               className="w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110"
               src={JQuery}
@@ -70,7 +70,7 @@ const Skills = () => {
             />
             <p className="my-4">JQuery</p>
           </div>
-          <div data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+          <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
             <img
               className="w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110"
               src={Express}
@@ -78,7 +78,7 @@ const Skills = () => {
             />
             <p className="my-4">Express</p>
           </div>
-          <div data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+          <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
             <img
               className="w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110"
               src={Mongo}
@@ -86,7 +86,7 @@ const Skills = () => {
             />
             <p className="my-4">MongoDB</p>
           </div>
-          <div data-aos="fade-up" data-aos-delay="750" data-aos-duration="750">
+          <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
             <img
               className="w-40 mx-auto mt-3 transition duration-300 ease-in-out hover:scale-110"
               src={Node}
