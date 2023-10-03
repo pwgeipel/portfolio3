@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section
       name="contact"
-      className="w-full h-screen bg-backgroundColor flex justify-center items-center p-3"
+      className="w-full h-screen bg-backgroundColor flex justify-center items-center p-3 pt-14"
     >
       <form
         method="POST"
@@ -23,20 +23,23 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
+          data-aos="fade-up" data-aos-delay="250" data-aos-duration="500"
         />
         <input
           className="p-4 my-0.5 bg-linkColor rounded"
           type="email"
           placeholder="Email"
           name="email"
+          data-aos="fade-up" data-aos-delay="250" data-aos-duration="500"
         />
         <textarea
           className="p-4 my-4 bg-linkColor rounded"
           placeholder="Message"
           name="message"
           rows="6"
+          data-aos="fade-up" data-aos-delay="250" data-aos-duration="500"
         ></textarea>
-        <button className="border-2 border-black px-5 py-3 my-3 flex rounded-lg items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant mx-auto">
+        <button className="border-2 border-black px-5 py-3 my-3 flex rounded-lg items-center gap-2 hover:bg-eggplant hover:text-linkColor hover:border-eggplant mx-auto" data-aos="fade-up" data-aos-delay="250" data-aos-duration="500">
           Get In Touch
         </button>
       </form>

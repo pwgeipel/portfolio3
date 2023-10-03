@@ -35,7 +35,7 @@ const Header = () => {
         </Link>
         <Link smooth to="projects">
           <li className="cursor-pointer text-linkColor transition duration-300 ease-in-out hover:scale-110">
-            Work
+            Projects
           </li>
         </Link>
         <Link smooth to="contact">
@@ -68,7 +68,7 @@ const Header = () => {
         </Link>
         <Link onClick={handleClick} to="projects">
           <li onClick={handleClick} className="py-5 text-3xl cursor-pointer">
-            Work
+            Projects
           </li>
         </Link>
         <Link onClick={handleClick} to="contact">
