@@ -5,8 +5,8 @@ const Projects = () => {
   // const projects = data;
 
   return (
-    <section name="projects" className="w-full md:h-screen bg-backgroundColor">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <section name="projects" className="w-full h-fit bg-backgroundColor">
+      <div className="max-w-[1000px] mx-auto mt-14 p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p
             className="text-3xl font-bold inline border-b-4 border-linkColor text-eggplant"
@@ -15,7 +15,10 @@ const Projects = () => {
           >
             Projects
           </p>
-          <p className="pt-4">Some examples of my work</p>
+          <p className="pt-4" 
+              data-aos="fade-right"
+              data-aos-delay="500"
+              data-aos-duration="500">Some examples of my work</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 pt-5 gap-10">

@@ -1,22 +1,23 @@
 import React from "react";
 import heroImg from "../../../src/assets/selfie.jpg";
-import Typed from 'typed.js';
-
-
+import Typed from "typed.js";
 
 const Home = () => {
-
-
-const el = React.useRef(null);
+  const el = React.useRef(null);
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Developer', 'Coffee Enthusiast', 'Amateur Chef', 'Corporate Trainer'],
+      strings: [
+        "Developer",
+        "Coffee Enthusiast",
+        "Amateur Chef",
+        "Corporate Trainer",
+      ],
       typeSpeed: 50,
       backSpeed: 50,
       backDelay: 1000,
       loop: true,
-      cursorChar: '__'
+      cursorChar: "__",
     });
 
     return () => {
@@ -28,10 +29,10 @@ const el = React.useRef(null);
   return (
     <div
       name="home"
-      className="max-w-max w-full h-auto md:h-screen flex flex-col md:flex-row pt-40 bg-backgroundColor items-center"
+      className="max-w-max w-full h-auto md:h-screen flex flex-col md:flex-row pt-20 bg-backgroundColor items-center"
     >
       <div
-        className="md:w-2/5 md:order-1 m-10 md:ml-20"
+        className="md:w-2/5 md:order-1 px-10 py-6 sm:p-10 md:ml-20"
         data-aos="zoom-in"
         data-aos-duration="750"
       >
@@ -43,7 +44,7 @@ const el = React.useRef(null);
         />
       </div>
       <div
-        className="md:w-3/5 md:order-2 p-10 text-right md:mr-20"
+        className="md:w-3/5 md:order-2 px-10 py-4 sm:py-10 text-right md:mr-20"
         data-aos="fade-left"
         data-aos-duration="750"
       >
@@ -54,14 +55,6 @@ const el = React.useRef(null);
           <span className="text-3xl" ref={el} />
         </div>
 
-
-
-        {/* <p className="text-lg max-w-700">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-          placeat quaerat vitae cumque. Qui culpa accusantium, tenetur libero
-          expedita consectetur delectus ullam animi velit soluta modi dolorem
-          placeat pariatur sed!
-        </p> */}
         <div className="flex justify-end">
           <a href="https://docs.google.com/document/d/16qUIiGuB5LYJ0k_D1SliAmIoG_RD9PJJanROTvvj-Hs/edit?usp=share_link">
             <button
@@ -113,7 +106,6 @@ const el = React.useRef(null);
       </div>
     </div>
   );
-  
 };
 
 export default Home;

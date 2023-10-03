@@ -10,13 +10,14 @@ import Node from "../../../src/assets/node-js copy.png";
 
 const Skills = () => {
   return (
-    <section name="skills" className="w-full h-screen bg-backgroundColor">
+    <section name="skills" className="w-full h-fit bg-backgroundColor">
       <div className="max-w-[1000px] mx-auto mt-14 p-4 flex flex-col justify-center w-full h-auto">
         <div>
           <p
             className="text-3xl font-bold inline border-b-4 border-linkColor text-eggplant"
             data-aos="fade-right"
             data-aos-duration="500"
+            data-aos-delay="500" 
           >
             Skills
           </p>
